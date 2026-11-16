@@ -1,7 +1,93 @@
 {% extends "layout.html" %}
+{% block content %}    
+<div class="hero"><div class="wrap">
+        <div>
+            <h1 data-ja="増え続ける絵は、<br>ひとつの宝物の本に。"
+                data-en="Piles of drawings,<br>one keepsake book.">増え続ける絵は、<br>ひとつの宝物の本に
+            </h1>
+            <p class="lead" data-ja="お子さまの絵や工作を、きれいにスキャンして一冊の本やキーホルダーにします。場所もとらず、いつでも気軽に見返せます。"
+                data-en="We scan your child’s drawings and crafts and turn them into a book or keychain. They take no space, and you can flip
+                through them anytime.">お子さまの絵や工作を、きれいにスキャンして一冊の本やキーホルダーにします。場所もとらず、いつでも気軽に見返せます
+            </p>
+            <a class="btn" href="#contact" data-ja="お問い合わせ" data-en="Get in touch">お問い合わせ</a>
+        </div>
 
-{% block title %}Home · Kira Kira Nook{% endblock %}
+        <svg class="art" viewBox="0 0 420 340" role="img" aria-label="Loose drawings becoming a book">
+            <g class="pile">
+            <rect x="20" y="40" width="130" height="100" rx="6" fill="#fff" stroke="#25306B" stroke-width="3" transform="rotate(-8 85 90)"/>
+            <circle cx="70" cy="80" r="20" fill="#FFC93C"/><path d="M95 120l24-30 22 30z" fill="#5CC9A7" transform="rotate(-8 85 90)"/>
+            <rect x="46" y="110" width="130" height="100" rx="6" fill="#fff" stroke="#25306B" stroke-width="3" transform="rotate(6 111 160)"/>
+            <path d="M70 190q20-40 40 0t40 0" stroke="#FF7A8A" stroke-width="7" fill="none" stroke-linecap="round" transform="rotate(6 111 160)"/>
+            <rect x="10" y="190" width="120" height="96" rx="6" fill="#fff" stroke="#25306B" stroke-width="3" transform="rotate(-3 70 238)"/>
+            <path d="M40 262l20-40 20 40zM88 262l16-28 16 28z" fill="#FFC93C" stroke="#25306B" stroke-width="2.5" transform="rotate(-3 70 238)"/>
+            </g>
+            <path d="M170 170h40m-12-14l14 14-14 14" stroke="#25306B" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <g transform="translate(225 90)">
+            <path d="M0 20q85-30 90 0v150q-5-28-90-4z" fill="#FFC93C" stroke="#25306B" stroke-width="3"/>
+            <path d="M180 20q-85-30-90 0v150q5-28 90-4z" fill="#fff" stroke="#25306B" stroke-width="3"/>
+            <circle cx="45" cy="80" r="16" fill="#FF7A8A"/><path d="M26 130l20-30 20 30z" fill="#5CC9A7"/>
+            <path d="M115 110q15-40 30 0t25 0" stroke="#25306B" stroke-width="6" fill="none" stroke-linecap="round"/>
+            <circle cx="140" cy="70" r="12" fill="#FFC93C" stroke="#25306B" stroke-width="3"/>
+            <circle cx="190" cy="196" r="22" fill="#FF7A8A" stroke="#25306B" stroke-width="3"/><path d="M190 186l3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1z" fill="#fff"/>
+            </g>
+        </svg>
+    </div></div>
 
-{% block content %}
+    <section class="tint"><div class="wrap">
+        <h2 data-ja="こんなお悩み、ありませんか？" data-en="Sound familiar?">こんなお悩み、ありませんか？</h2>
+        <p class="sub" data-ja="お子さまが描いた絵は、どれも大切。でも、きょうだいが増えるほど置き場所に困ります。"
+            data-en="Every drawing matters. But with each new child, there’s less room to keep them.">お子さまが描いた絵は、どれも大切。でも、きょうだいが増えるほど置き場所に困ります
+        </p>
+        <div class="pain">
+        <p><b data-ja="置き場所がない" data-en="No space left">置き場所がない</b>
+            <span data-ja="棚も押し入れも、作品でいっぱいに。" data-en="Shelves and closets fill up fast.">棚も押し入れも、作品でいっぱいに。</span>
+        </p>
+        <p><b data-ja="見返しにくい" data-en="Hard to revisit">見返しにくい</b>
+            <span data-ja="箱から出すと散らかってしまい、つい後回しに。" data-en="Taking them out makes a mess, so you put it off.">
+                箱から出すと散らかってしまい、つい後回しに。</span>
+        </p>
+        <p><b data-ja="捨てるのは心が痛む" data-en="Hard to let go">捨てるのは心が痛む</b>
+            <span data-ja="残したい気持ちと、減らしたい気持ちの間で迷います。" data-en="You want to keep them, and you want less clutter.">
+                残したい気持ちと、減らしたい気持ちの間で迷います。</span>
+        </p>
+    </div></div></section>
 
+    <section>
+        <div class="wrap">
+            <h2 data-ja="作れるもの" data-en="What we make">作れるもの</h2>
+            <p class="sub" data-ja="ご希望のかたちをお選びください。" data-en="Pick the keepsake you want.">ご希望のかたちをお選びください。</p>
+            <div class="prod">
+                <div class="card"><svg viewBox="0 0 64 64"><path d="M6 12q26-8 26 2v40q0-10-26-6zM58 12q-26-8-26 2v40q0-10 26-6z" fill="#FFC93C" stroke="#25306B" stroke-width="3" stroke-linejoin="round"/></svg><h3 data-ja="アートブック" data-en="Art book">アートブック</h3><p data-ja="作品を年齢や時期ごとに並べた、世界にひとつの本。" data-en="A one-of-a-kind book, with works arranged by age or season.">作品を年齢や時期ごとに並べた、世界にひとつの本。</p></div>
+                <div class="card"><svg viewBox="0 0 64 64"><rect x="8" y="8" width="48" height="48" rx="3" fill="none" stroke="#25306B" stroke-width="4"/><circle cx="26" cy="28" r="7" fill="#FF7A8A"/><path d="M20 48l14-18 14 18z" fill="#5CC9A7"/></svg><h3 data-ja="額装アート" data-en="Framed art">額装アート</h3><p data-ja="とっておきの一枚を、お部屋に飾れる額に。" data-en="Your favorite piece, framed and ready to hang.">とっておきの一枚を、お部屋に飾れる額に。</p></div>
+                <div class="card"><svg viewBox="0 0 64 64"><circle cx="32" cy="14" r="8" fill="none" stroke="#25306B" stroke-width="4"/><path d="M32 22v8" stroke="#25306B" stroke-width="4"/><rect x="16" y="30" width="32" height="28" rx="6" fill="#FFC93C" stroke="#25306B" stroke-width="3"/><circle cx="32" cy="44" r="6" fill="#FF7A8A"/></svg><h3 data-ja="キーホルダー" data-en="Keychain">キーホルダー</h3><p data-ja="お子さまの絵を、毎日持ち歩けるサイズに。" data-en="Your child’s art, small enough to carry every day.">お子さまの絵を、毎日持ち歩けるサイズに。</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tint">
+        <div class="wrap">
+    <h2 data-ja="ご利用の流れ" data-en="How it works">ご利用の流れ</h2>
+    <p class="sub" data-ja="箱に入れて送るだけ。お申し込みから完成まで、すべておまかせください。" data-en="Just pack and send. We handle everything from scan to finished keepsake.">箱に入れて送るだけ。お申し込みから完成まで、すべておまかせください。</p>
+    <ol class="steps">
+    <li><b data-ja="作るものを選ぶ" data-en="Choose a product">作るものを選ぶ</b><span data-ja="本・額装・キーホルダーからお選びください。" data-en="Book, framed art, or keychain.">本・額装・キーホルダーからお選びください。</span></li>
+    <li><b data-ja="箱が届く" data-en="Receive your box">箱が届く</b><span data-ja="返送料込みの専用ボックスをお送りします。" data-en="We send you a box with shipping included.">返送料込みの専用ボックスをお送りします。</span></li>
+    <li><b data-ja="作品を入れて返送" data-en="Pack and send back">作品を入れて返送</b><span data-ja="作品を詰めて、ポストや集荷でお送りください。" data-en="Fill it with artwork and send it back.">作品を詰めて、ポストや集荷でお送りください。</span></li>
+    <li><b data-ja="スキャンして制作" data-en="We scan and make it">スキャンして制作</b><span data-ja="一点ずつ丁寧にスキャンし、仕上げてお届けします。" data-en="Each piece is scanned with care, then delivered finished.">一点ずつ丁寧にスキャンし、仕上げてお届けします。</span></li>
+    </ol></div></section>
+
+    <section>
+        <div class="wrap">
+    <h2 data-ja="原画は、どうしますか？" data-en="What happens to the originals?">原画は、どうしますか？</h2>
+    <p class="sub" data-ja="スキャン後の作品は、お客さまが自由に選べます。" data-en="After scanning, you decide.">スキャン後の作品は、お客さまが自由に選べます。</p>
+    <div class="choice">
+    <div><b data-ja="返送してもらう" data-en="Send them back">返送してもらう</b><span data-ja="原画はそのままお手元に戻します。" data-en="We return the originals to you.">原画はそのままお手元に戻します。</span></div>
+    <div><b data-ja="預かってもらう" data-en="We keep them">預かってもらう</b><span data-ja="当店で大切に保管します。" data-en="We store them safely for you.">当店で大切に保管します。</span></div>
+    <div><b data-ja="処分をおまかせ" data-en="We dispose of them">処分をおまかせ</b><span data-ja="気持ちの区切りがついたら、当店で処分します。" data-en="We take care of disposal for you.">気持ちの区切りがついたら、当店で処分します。</span></div>
+    </div></div></section>
+
+    <section class="tint cta" id="contact"><div class="wrap">
+    <h2 data-ja="まずはお気軽にご相談ください" data-en="Start with a quick message">まずはお気軽にご相談ください</h2>
+    <p data-ja="料金やお届けまでの日数など、どんなことでもお答えします。" data-en="Ask us about pricing, timing, or anything else.">料金やお届けまでの日数など、どんなことでもお答えします。</p>
+    <a class="btn" href="mailto:hello@example.com" data-ja="メールで問い合わせる" data-en="Email us">メールで問い合わせる</a>
+    </div></section>
 {% endblock %}
