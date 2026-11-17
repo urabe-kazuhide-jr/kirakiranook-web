@@ -6,23 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>{% block title %}KiraKiraNook{% endblock %}</title>
-    <header>
-        <p>KiraKiraNook</p>
-    </header><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="wrap">
-        <a class="logo" href="/" aria-label="KiraKiraNook">
-        <span class="kira" aria-hidden="true">
-            <i>K</i><i>I</i><i>R</i><i>A</i>
-            <i>K</i><i>I</i><i>R</i><i>A</i>
-        </span>
-        <span class="nook" aria-hidden="true">Nook</span>
-        </a>
-        <button class="lang" id="lang" aria-label="Switch language">EN</button>
-    </div>
-</header>
+    <header>
+        <div class="wrap">
+            <a class="logo" href="/" aria-label="KiraKiraNook">
+            <span class="kira" aria-hidden="true">
+                <i>K</i><i>I</i><i>R</i><i>A</i>
+                <i>K</i><i>I</i><i>R</i><i>A</i>
+            </span>
+            <span class="nook" aria-hidden="true">Nook</span>
+            </a>
+            <button class="lang" id="lang" aria-label="Switch language">EN</button>
+        </div>
+    </header>
 
 <main>
     {% block content %}{% endblock %}
